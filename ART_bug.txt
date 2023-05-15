@@ -1,0 +1,4 @@
+in .../art/attacks/evasion/adversarial_patch/adversarial_patch_pytorch.py to use torch versions that are > 1.7.0
+change line 126      assert torch_version[0] >= 1 and torch_version[1] >= 7, "AdversarialPatchPyTorch requires torch>=1.7.0"
+to
+   assert torch_version[0] >= 1 and torch_version[0] < 3, "AdversarialPatchPyTorch requires torch>=1.7.0"

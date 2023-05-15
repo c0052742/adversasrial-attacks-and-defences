@@ -1,0 +1,16 @@
+train: ./data/KITTI/train
+val: ./data/KITTI/validation
+test: ./data/KITTI/test
+
+#number of classes
+nc: 8
+names:
+  0: "car"
+  1: "van"
+  2: "truck"
+  3: "pedestrian"
+  4: "person_sitting"
+  5: "cyclist"
+  6: "tram"
+  7: "misc"
+
